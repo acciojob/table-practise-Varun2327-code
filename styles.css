@@ -1,8 +1,12 @@
 table {
+  border-collapse:;
   background-color: yellow;
-  border-collapse: ;
   margin: 20px auto;
-  border: 1px solid black;
+
+  border-top: 1px solid grey;
+  border-right: 1px solid black;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid black;
 }
 
 caption {
@@ -12,13 +16,21 @@ caption {
   text-align: center;
 }
 
-th, td {
-  border: 1px solid black;
-  padding: 10px 15px;
+/* Combined style for table cells and rows */
+th, td, tr {
+  border-left: 1px solid black;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid black;
+  border-right: 1px solid grey;
   text-align: center;
 }
-
 th {
   font-weight: bold;
   font-size: 18px;
+  padding: 10px 15px;
+}
+
+td {
+  padding: 10px 15px;
+  font-size: 16px;
 }
