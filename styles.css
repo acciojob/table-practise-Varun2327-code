@@ -12,8 +12,8 @@ table {
 caption {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 1px;
+  text-align:;
 }
 
 /* Combined style for table cells and rows */
@@ -22,15 +22,14 @@ th, td, tr {
   border-bottom: 1px solid grey;
   border-top: 1px solid black;
   border-right: 1px solid grey;
-  text-align: center;
 }
 th {
   font-weight: bold;
   font-size: 18px;
-  padding: 10px 15px;
+  padding: 1px 1px;
 }
 
 td {
-  padding: 10px 15px;
+  padding: 1px 1px;
   font-size: 16px;
 }
